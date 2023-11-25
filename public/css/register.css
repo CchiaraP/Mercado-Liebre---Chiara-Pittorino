@@ -1,0 +1,422 @@
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 361px){
+
+body{
+    background-color: #ebebeb;
+}
+
+/*header*/
+header{
+    background-color: #EAC926;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    size: 100%;
+}
+
+.contenedor1-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 40%;
+    padding: 10px;
+}
+
+.centrado{
+    text-align: center;
+    width: 100%;
+    font-size: 70%;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.busqueda{
+    width: 60%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-de-busqueda{
+    width: 100%;
+    max-width: 40vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2px 5px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.barra-de-busqueda input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 80%;
+    color: gray;
+    text-align: center;
+}
+
+.barra-de-busqueda button{
+    display: none;
+}
+
+.sin-nada{
+    display: none;
+}
+
+.banner{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+
+/*main*/
+main{
+    background-color: white;
+    width: 100vw;
+}
+
+.formulario-de-registro{
+    border: 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h2{
+    line-height: 28px;
+    color: #03264C;
+    text-align: center;
+}
+
+.en-el-centro{
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.titulo{
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color:#1259c3;
+    font-weight: 600;
+}
+
+.input1{
+    width: 70%;
+    max-width: 80vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+button{
+    margin: 30px;
+    padding: 10px;
+    background-color: #1259c3;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+button:hover{
+    background-color: #0022AA;
+    cursor: pointer;
+}
+
+/*main*/
+
+/*footer*/
+.informacion{
+    margin: 30px;
+    font-size: small;
+}
+
+.dentro-info{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.fa-gift{
+    color: #03264C;   
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: color, 300ms;}
+
+.fa-gift:hover{
+    color:#39b54a;
+}
+
+.fa-user-shield{
+    color: #03264C; 
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: color, 300ms;}
+
+.fa-user-shield:hover{
+    color:#39b54a
+}
+
+.fa-credit-card{
+    color: #03264C; 
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: color, 300ms;
+}
+
+.fa-credit-card:hover{
+    color:#39b54a
+}
+
+/*footer*/
+}
+
+@media (min-width: 580px){
+    article {
+        margin: auto;
+        text-align: center;
+        width: 40%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .descripcion{
+        display: contents;
+        font-size: 16px;
+    }
+
+
+.logo{
+    padding: 20px;
+}
+
+.centrado{
+    font-size: large;
+}
+
+/*main*/
+main{
+    background-color: white;
+    width: 100vw;
+}
+
+.formulario-de-registro{
+    border: 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h2{
+    line-height: 28px;
+    color: #03264C;
+    text-align: center;
+}
+
+.en-el-centro{
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.titulo{
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color:#1259c3;
+    font-weight: 600;
+}
+
+.input1{
+    width: 50%;
+    max-width: 40vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/*main*/
+
+}
+
+@media (min-width: 769px){
+    /*header*/
+    
+    .contenedor1-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 20%;
+    }
+    
+    .centrado{
+        text-align: center;
+        width: 30%;
+        margin: 5px;
+        font-size: large;
+    }
+    
+    .busqueda{
+        width: 40%;
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .barra-de-busqueda{
+        width: 100%;
+        max-width: 40vw;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+    
+    .barra-de-busqueda input{
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 5px 10px;
+        font-size: 20px;
+        color: gray;
+        text-align: center;
+    }
+    
+    .barra-de-busqueda button i{
+        width: 25px;
+    }
+    
+    .barra-de-busqueda button{
+        border: 0;
+        border-radius: 35%;
+        width: 10%;
+        height: 40px;
+        background: white;
+        cursor: pointer;
+    } 
+    
+    .sin-nada{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    /*header*/
+    
+    /*main*/
+    main{
+        background-color: white;
+        width: 100vw;
+    }
+
+    .formulario-de-registro{
+        border: 0;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    h2{
+        line-height: 28px;
+        color: #03264C;
+        text-align: center;
+    }
+
+    .en-el-centro{
+        padding: 30px;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: #ebebeb;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .titulo{
+        font-size: large;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        color:#1259c3;
+        font-weight: 600;
+    }
+
+    .input1{
+        width: 50%;
+        max-width: 40vw;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+
+    /*main*/
+    
+    /*footer*/
+    
+    footer{
+        display: flex;
+    }
+    
+    .informacion{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .dentro-info{
+        text-align: center;
+        margin: auto;
+        width: 94.5%;
+    }
+    
+    .fa-gift{
+        color: #03264C;   
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    .fa-user-shield{
+        color: #03264C; 
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    .fa-credit-card{
+        color: #03264C; 
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    /*footer*/
+    } 
