@@ -123,8 +123,21 @@ article {
     background-color: white;
 }
 
+.descripcion{
+    font-size: 16px;
+    display: none;
+}
+
 article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+article:hover .descripcion{
+    display: block;
+}
+
+article:hover .fa-truck{
+    transform: rotate(540deg);
 }
 
 .titular{
@@ -170,10 +183,6 @@ article:hover{
     transition: all 600ms;
 }
 
-.fa-truck:hover{
-    transform: rotate(360deg);
-}
-
 .precio{
     font-size: 18px;
 }
@@ -184,15 +193,6 @@ article:hover{
     position: relative;
     bottom: 20px;
     left: 60%;
-}
-
-.descripcion{
-    display: none;
-    transition: display 300ms;
-}
-
-.descripcion:hover{
-    display: contents;
 }
 
 /*main*/
@@ -258,11 +258,6 @@ article:hover{
 
     .contenedor-articulo{
         margin-bottom: 20px;
-    }
-
-    .descripcion{
-        display: contents;
-        font-size: 16px;
     }
 
 
@@ -437,11 +432,6 @@ article{
     position: absolute;
     right: 20px;
     top: -15px;
-}
-
-.descripcion{
-    display: contents;
-    font-size: 16px;
 }
 
 /*main*/
