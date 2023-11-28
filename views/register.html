@@ -53,10 +53,12 @@
                 <h2>Crea tu cuenta en Mercado Liebre</h2>
                 
                 <p class="titulo">Nombre</p>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" class="input1" required>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" class="input1" required 
+                minlength="3" maxlength="">
                 
                 <p class="titulo">Nombre de usuario</p>
-                <input type="text" name="nombre-de-usuario" id="nombre-de-usuario" placeholder="Usuario" class="input1" required>
+                <input type="text" name="nombre-de-usuario" id="nombre-de-usuario" placeholder="Usuario" class="input1" required
+                minlength="3" maxlength="">
 
                 <p class="titulo">Email</p>
                 <input type="email" name="email" id="email" placeholder="Email" class="input1" required>
@@ -97,7 +99,7 @@
                 <input type="file" name="avatar"  accept=".jpg">
 
                 <p class="titulo">Contraseña</p>
-                <input type="password" name="password" id="password" placeholder="Contraseña" class="input1" required>
+                <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos 8 caracteres, una Mayúscula y una minúscula" placeholder="Contraseña" class="input1" required>
 
                 <p class="titulo">Reingresar contraseña</p>
                 <input type="password" name="password" id="password" placeholder="Reingrese la contraseña" class="input1" required>
